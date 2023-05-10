@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.bgContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.accountContainer {
+  background-color: #150b3e;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.profileContainer {
+  display: flex;
+margin-left: 10px;  
+}
+.profile {
+  margin-right: 10px;
+  background-color: #c7d2fe;
+  margin-top: 20px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  color: #7c3aed;
+
+}
+.name {
+  margin-top: 25px;
+  color: #d4d2db;
+  margin-left: 10px;
+}
+.balanceContainer {
+  display: flex;
+  justify-content: space-between;
+margin-left: 10px;  
+}
+.yourBalance {
+  color: #585076;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 80px;
+margin-left: 10px; 
+}
+.balance {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.inRupees {
+  color: #585076;
+  margin-right: 10px;
+}
+.withdraw {
+  align-items: flex-start;
+  margin-right: 150px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.para {
+  color: #585076;
+  font-size: 12px;
+  align-items: flex-start;
+margin-left: 10px;  
+}
+.denominationsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+}

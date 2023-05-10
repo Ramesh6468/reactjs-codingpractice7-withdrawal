@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.bgContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.button {
+  background-color: #585076;
+  color: #ffffff;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+}
